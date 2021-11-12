@@ -19,7 +19,7 @@
             <asp:Label ID="Label3" runat="server" Text="管道得知(可多選)" Font-Size="X-Large"></asp:Label>
             <asp:CheckBoxList ID="c1_Inter" runat="server" RepeatDirection="Horizontal" RepeatColumns="3" RepeatLayout="Flow">
                 <asp:ListItem>網頁廣告</asp:ListItem>
-                <asp:ListItem>電視</asp:ListItem>
+                <asp:ListItem>電視1</asp:ListItem>
                 <asp:ListItem>其他</asp:ListItem>
             </asp:CheckBoxList><br/>
             <asp:Label ID="Label4" runat="server" Text="影片說明" Font-Size="X-Large"></asp:Label>
