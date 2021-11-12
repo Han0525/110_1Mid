@@ -14,7 +14,7 @@
             <asp:Label ID="Label1" runat="server" Text="帳號" Font-Size="X-Large"></asp:Label>
             <asp:TextBox ID="tb_Id" runat="server" Height="15px" Width="200px"></asp:TextBox><br />
             <asp:Label ID="Label2" runat="server" Text="密碼" Font-Size="X-Large"></asp:Label>
-            <asp:TextBox ID="tb_Ps" runat="server" Height="15px" Width="200px"></asp:TextBox>
+            <asp:TextBox ID="tb_Ps" runat="server" Height="15px" Width="200px" TextMode="Password"></asp:TextBox>
             <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/eye-slash-solid.svg" Height="30px" Width="30px" /><br/>
             <asp:Label ID="Label3" runat="server" Text="管道得知(可多選)" Font-Size="X-Large"></asp:Label>
             <asp:CheckBoxList ID="c1_Inter" runat="server" RepeatDirection="Horizontal" RepeatColumns="3" RepeatLayout="Flow">
