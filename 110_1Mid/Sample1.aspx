@@ -17,7 +17,7 @@
             <asp:TextBox ID="tb_Ps" runat="server" Height="15px" Width="200px" TextMode="Password"></asp:TextBox>
             <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/eye-slash-solid.svg" Height="30px" Width="30px" /><br/>
             <asp:Label ID="Label3" runat="server" Text="管道得知(可多選)" Font-Size="X-Large"></asp:Label>
-            <asp:CheckBoxList ID="c1_Inter" runat="server" RepeatDirection="Horizontal" RepeatColumns="3" RepeatLayout="Flow">
+            <asp:CheckBoxList ID="cl_Inter" runat="server" RepeatDirection="Horizontal" RepeatColumns="3" RepeatLayout="Flow">
                 <asp:ListItem>網頁廣告</asp:ListItem>
                 <asp:ListItem>電視</asp:ListItem>
                 <asp:ListItem>其他</asp:ListItem>
